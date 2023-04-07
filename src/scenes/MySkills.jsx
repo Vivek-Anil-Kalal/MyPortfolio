@@ -115,7 +115,7 @@ const MySkills = () => {
                     whileInView="visible"
                     // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
                     viewport={{ once: true, amount: 0.5 }}
-                    transition={{ duration: 0.5 }}
+                    transition={{ delay: 0.4, duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, y: 50 },
                         visible: { opacity: 1, y: 0 }
@@ -124,13 +124,13 @@ const MySkills = () => {
 
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">01</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">Experience</p>
+                            <p className="font-playfair font-semibold text-5xl">03</p>
+                            <p className="font-playfair font-semibold text-3xl mt-3">Imaginative</p>
                         </div>
-                        <div className="w-1/2 md:w/3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+                        <div className="w-1/2 md:w/3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        As someone with more than one year of experience in web development and three years of experience in core Java, I have developed a strong foundation in programming and possess excellent knowledge in both areas. Having participated in a hackathon and worked on ReactJS, I have gained practical experience and a deeper understanding of web development technologies. I feel confident in my ability to solve complex problems, write efficient and scalable code, and work collaboratively with a team of developers. With my skills and experience, I am excited to take on new challenges and continue to grow as a developer.
+                        As an imaginative person, I am always seeking out new ideas and ways of thinking that can help me approach challenges in unique and creative ways. I have a natural curiosity about the world around me and enjoy staying up to date on current events and trends, often using this knowledge to fuel my imagination and brainstorm new possibilities. When faced with a particular situation or problem, I find myself naturally imagining different scenarios and outcomes, constantly exploring what could be done differently or better. This imaginative approach has served me well in both my personal and professional life, allowing me to come up with innovative solutions and push the boundaries of what is possible. I believe that my natural curiosity and imaginative thinking make me a valuable asset to any team, and I am excited to continue exploring new ideas and pushing the limits of what is possible.
                     </p>
                 </motion.div>
 
