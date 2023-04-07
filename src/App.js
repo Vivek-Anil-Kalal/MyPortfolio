@@ -4,6 +4,7 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from './scenes/DotGroup.jsx'
 import Landing from './scenes/Landing.jsx'
 import MySkills from './scenes/MySkills.jsx'
+import Contact from './scenes/Contact'
 import Projects from './scenes/Projects.jsx'
 import Testimonials from './scenes/Testimonials'
 
@@ -53,8 +54,13 @@ function App() {
 
       <LineGradient />
 
-      <div className="w-5/6 mx-auto h-full">
+      <div className="w-5/6 mx-auto">
         <Testimonials />
+      </div>
+      <LineGradient />
+
+      <div className="w-5/6 mx-auto h-full">
+        <Contact />
       </div>
     </div>
   );
