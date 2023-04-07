@@ -8,8 +8,8 @@ const Projects = () => {
   const container = {
     hidden: {},
     visible: {
-      transition: { staggerChildren: 0.2 }
-    }
+      transition: { staggerChildren: 0.2 },
+    },
   }
 
   const projectVariant = {
@@ -25,7 +25,7 @@ const Projects = () => {
         initial="hidden"
         whileInView="visible"
         // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.1 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, y: -50 },
