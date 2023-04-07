@@ -32,11 +32,13 @@ const Projects = () => {
           visible: { opacity: 1, y: 0 }
         }}
       >
-        <p className="font-playfair font-semibold text-4xl">
-          <span className="text-red">PRO</span>JECTS
-        </p>
-        <div className="flex justify-center mt-5">
-          <LineGradient width="w-1/3" />
+        <div>
+          <p className="font-playfair font-semibold text-4xl">
+            <span className="text-red">PRO</span>JECTS
+          </p>
+          <div className="flex justify-center mt-5">
+            <LineGradient width="w-1/3" />
+          </div>
         </div>
         <p className="mt-10 mb-10">
           Behold, my collection of innovative and impactful projects.
