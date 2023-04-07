@@ -78,7 +78,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w/3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        As someone with more than one year of experience in web development and three years of experience in core Java, I have developed a strong foundation in programming and possess excellent knowledge in both areas. Having participated in a hackathon and worked on ReactJS, I have gained practical experience and a deeper understanding of web development technologies. I feel confident in my ability to solve complex problems, write efficient and scalable code, and work collaboratively with a team of developers. With my skills and experience, I am excited to take on new challenges and continue to grow as a developer.
+                        As someone with more than one year of experience in web development and three years of experience in core Java, I have developed a strong foundation in programming and possess excellent knowledge in both areas. Having participated in a hackathon and worked on ReactJS, I have gained practical experience and a deeper understanding of web development technologies. I feel confident in my ability to solve complex problems, write efficient and scalable code, and work collaboratively with a team of developers.
                     </p>
                 </motion.div>
 
@@ -104,7 +104,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w/3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        As an innovative individual, I am constantly seeking out new and creative ways to approach challenges and achieve success. One example of my innovative thinking is demonstrated through my creation of a TechBlog Website that boasts strong functionalities and an innovative UI design. In addition to my technical skills, I am also constantly generating new business ideas that I believe can be successfully implemented. I am confident in my ability to not only generate these ideas, but to also see them through to fruition, utilizing my skills in web development and beyond to bring these concepts to life. Overall, I believe that my combination of technical and business acumen makes me a valuable asset to any team or project, and I am excited to continue pursuing my passions and pushing the boundaries of what is possible.
+                        As an innovative individual, I am constantly seeking out new and creative ways to approach challenges and achieve success. One example of my innovative thinking is demonstrated through my creation of a TechBlog Website that boasts strong functionalities and an innovative UI design. In addition to my technical skills, I am also constantly generating new business ideas that I believe can be successfully implemented. 
                     </p>
                 </motion.div>
 
@@ -130,10 +130,9 @@ const MySkills = () => {
                         <div className="w-1/2 md:w/3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        As an imaginative person, I am always seeking out new ideas and ways of thinking that can help me approach challenges in unique and creative ways. I have a natural curiosity about the world around me and enjoy staying up to date on current events and trends, often using this knowledge to fuel my imagination and brainstorm new possibilities. When faced with a particular situation or problem, I find myself naturally imagining different scenarios and outcomes, constantly exploring what could be done differently or better. This imaginative approach has served me well in both my personal and professional life, allowing me to come up with innovative solutions and push the boundaries of what is possible. I believe that my natural curiosity and imaginative thinking make me a valuable asset to any team, and I am excited to continue exploring new ideas and pushing the limits of what is possible.
+                        As an imaginative person, I am always seeking out new ideas and ways of thinking that can help me approach challenges in unique and creative ways. I have a natural curiosity about the world around me and enjoy staying up to date on current events and trends, often using this knowledge to fuel my imagination and brainstorm new possibilities. When faced with a particular situation or problem, I find myself naturally imagining different scenarios and outcomes, constantly exploring what could be done differently or better. 
                     </p>
                 </motion.div>
-
             </div>
         </section>
     )
