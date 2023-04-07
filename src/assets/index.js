@@ -18,6 +18,7 @@ import project6 from '../assets/project-6.jpeg'
 import project7 from '../assets/project-7.jpeg'
 import skills from "../assets/skills-image.png"
 import twitter from "../assets/twitter.png"
+import github from "../assets/github.png"
 
 export {
     menuIcon,
@@ -39,5 +40,6 @@ export {
     project6,
     project7,
     skills,
-    twitter
+    twitter,
+    github
 }

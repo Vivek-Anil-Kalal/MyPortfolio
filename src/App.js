@@ -25,15 +25,15 @@ function App() {
     <div className="app bg-deep-blue">
       <Navbar isTopOfPage={isTopOfPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       <div className="w-5/6 mx-auto md:h-full">
-        {isAboveMediumScreens && ( 
-          <DotGroup 
+        {isAboveMediumScreens && (
+          <DotGroup
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
           />
         )}
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
 
-      <Landing setSelectedPage={setSelectedPage}/>
     </div>
   );
 }
