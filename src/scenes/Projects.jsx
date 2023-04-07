@@ -1,8 +1,21 @@
 import LineGradient from "../components/LineGradient"
 import { motion } from "framer-motion"
+import Project from "../components/Project"
+import { project1, project2, project3, project4, project5, project6, project7 } from "../assets"
 
 const Projects = () => {
 
+  const container = {
+    hidden: {},
+    visible: {
+      transition: { staggerChildren: 0.2 }
+    }
+  }
+
+  const projectVariant = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1 }
+  }
 
   return (
     <section id="projects" className="pt-48 pb-48">
@@ -29,6 +42,43 @@ const Projects = () => {
           Behold, my collection of innovative and impactful projects.
         </p>
       </motion.div>
+
+
+      {/* PROJECTS */}
+      <div className="flex justify-center">
+        <motion.div
+          className="sm:grid sm:grid-cols-3"
+          initial="hidden"
+          whileInView="visible"
+          // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
+          viewport={{ once: true, amount: 0.5 }}
+          variants={container}
+        >
+          {/* ROW 1 */}
+
+          <div className="flex justify-center items-center text-center p-10 bg-red 
+           max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
+            BEAUTIFUL USER INTERFACES
+          </div>
+
+          <Project title="Project1" proImage={project1} projectVariant={projectVariant} />
+          <Project title="Project2" proImage={project2} projectVariant={projectVariant} />
+
+          {/* ROW 2 */}
+          <Project title="Project3" proImage={project3} projectVariant={projectVariant} />
+          <Project title="Project4" proImage={project4} projectVariant={projectVariant} />
+          <Project title="Project5" proImage={project5} projectVariant={projectVariant} />
+
+          {/* ROW 2 */}
+          <Project title="Project6" proImage={project6} projectVariant={projectVariant} />
+          <Project title="Project7" proImage={project7} projectVariant={projectVariant} />
+
+          <div className="flex justify-center items-center text-center p-10 bg-blue 
+           max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
+            SMOOTH USER EXPERIENCE
+          </div>
+        </motion.div>
+      </div>
     </section>
   )
 }
