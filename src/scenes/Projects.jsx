@@ -47,7 +47,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-3 gap-2 sm:my-0 my-2"
           initial="hidden"
           whileInView="visible"
           // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
