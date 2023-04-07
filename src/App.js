@@ -5,6 +5,7 @@ import DotGroup from './scenes/DotGroup.jsx'
 import Landing from './scenes/Landing.jsx'
 import MySkills from './scenes/MySkills.jsx'
 import Projects from './scenes/Projects.jsx'
+import Testimonials from './scenes/Testimonials'
 
 import LineGradient from './components/LineGradient.jsx'
 
@@ -48,6 +49,12 @@ function App() {
 
       <div className="w-5/6 mx-auto">
         <Projects />
+      </div>
+
+      <LineGradient />
+
+      <div className="w-5/6 mx-auto h-full">
+        <Testimonials />
       </div>
     </div>
   );
