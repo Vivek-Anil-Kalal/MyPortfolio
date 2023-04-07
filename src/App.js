@@ -3,6 +3,7 @@ import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./scenes/Navbar";
 import DotGroup from './scenes/DotGroup.jsx'
 import Landing from './scenes/Landing.jsx'
+import LineGradient from './components/LineGradient.jsx'
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -33,7 +34,7 @@ function App() {
         )}
         <Landing setSelectedPage={setSelectedPage} />
       </div>
-
+          <LineGradient />
     </div>
   );
 }
