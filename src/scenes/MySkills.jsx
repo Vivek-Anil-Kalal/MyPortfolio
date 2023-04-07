@@ -62,7 +62,7 @@ const MySkills = () => {
                     initial="hidden"
                     whileInView="visible"
                     // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={{ duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, y: 50 },
@@ -88,7 +88,7 @@ const MySkills = () => {
                     initial="hidden"
                     whileInView="visible"
                     // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={{ delay: 0.2, duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, y: 50 },
@@ -114,7 +114,7 @@ const MySkills = () => {
                     initial="hidden"
                     whileInView="visible"
                     // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                     variants={{
                         hidden: { opacity: 0, y: 50 },
