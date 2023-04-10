@@ -3,7 +3,7 @@ import { github, instagram, linkedin, twitter } from '../assets'
 
 const SocialMediaIcons = () => {
     return (
-        <div className='flex justify-center md:justify-start my-10 gap-7'>
+        <div className='flex justify-center md:justify-start sm:my-10 my-2 gap-7'>
             <a
                 className="hover:opacity-50 transition duration-500"
                 href="https://www.linkedin.com/in/vivek-kalal-848397205/"
