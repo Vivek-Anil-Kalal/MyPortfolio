@@ -7,7 +7,6 @@ import MySkills from './scenes/MySkills.jsx'
 import Contact from './scenes/Contact'
 import Projects from './scenes/Projects.jsx'
 import Testimonials from './scenes/Testimonials'
-
 import LineGradient from './components/LineGradient.jsx'
 import Footer from "./scenes/Footer";
 

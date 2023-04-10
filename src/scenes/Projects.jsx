@@ -18,14 +18,14 @@ const Projects = () => {
   }
 
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="projects" className="pt-24 pb-48">
       {/* HEADING */}
       <motion.div
         className="md:w-2/4 mx-auto text-center"
         initial="hidden"
         whileInView="visible"
         // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.5 }}
         transition={{ duration: 0.5 }}
         variants={{
           hidden: { opacity: 0, y: -50 },
@@ -52,8 +52,7 @@ const Projects = () => {
           className="sm:grid sm:grid-cols-3 gap-2 sm:my-0 my-2"
           initial="hidden"
           whileInView="visible"
-          // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.3 }}
           variants={container}
         >
           {/* ROW 1 */}

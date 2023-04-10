@@ -2,7 +2,7 @@ import LineGradient from "../components/LineGradient"
 import { motion } from "framer-motion"
 
 const Testimonials = () => {
-  const testimonialsStyles = `mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-8 mt-48
+  const testimonialsStyles = `mx-auto relative bg-blue max-w-[400px] h-max flex flex-col justify-end sm:p-8 p-4 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2`;
 
 
@@ -35,7 +35,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className={`bg-blue ${testimonialsStyles} before:content-person1`}
+          className={`bg-blue ${testimonialsStyles} before:content-person1 `}
           initial="hidden"
           whileInView="visible"
           // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
@@ -47,7 +47,7 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl sm:p-0 p-5 mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
           </p>
         </motion.div>
@@ -66,7 +66,7 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl sm:p-0 p-5 mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
           </p>
         </motion.div>
@@ -83,7 +83,7 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
+          <p className="text-center text-xl sm:p-0 p-5 mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
           </p>
         </motion.div>
