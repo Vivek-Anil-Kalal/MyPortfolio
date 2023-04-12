@@ -62,7 +62,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
 
-          <Project title="Project1" proImage={project1} projectVariant={projectVariant} />
+          <Project title="Project1" proImage={project1} projectLink={""} projectVariant={projectVariant} />
           <Project title="Project2" proImage={project2} projectVariant={projectVariant} />
 
           {/* ROW 2 */}
