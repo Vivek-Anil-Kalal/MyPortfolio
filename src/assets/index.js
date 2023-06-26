@@ -20,6 +20,11 @@ import skills from "../assets/skills-image.png"
 import twitter from "../assets/twitter.png"
 import github from "../assets/github.png"
 import profile from '../assets/profile.jpeg'
+import Login from '../assets/Login.jpg'
+import robot from '../assets/robot.png'
+import Techblog from '../assets/Techblog.jpg'
+import ai from '../assets/ai.png'
+import GPT3 from '../assets/GPT3.png'
 
 export {
     menuIcon,
@@ -43,5 +48,10 @@ export {
     skills,
     twitter,
     github,
-    profile
+    profile,
+    Techblog,
+    robot,
+    Login,
+    GPT3,
+    ai,
 }

@@ -1,7 +1,7 @@
 import LineGradient from "../components/LineGradient"
 import { motion } from "framer-motion"
 import Project from "../components/Project"
-import { project1, project2, project3, project4, project5, project6, project7 } from "../assets"
+import { Login, Techblog, ai, project1, project2, project3, project4, project5, project6, project7, robot } from "../assets"
 
 const Projects = () => {
 
@@ -62,13 +62,16 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
 
-          <Project title="Project1" proImage={project1} projectLink={""} projectVariant={projectVariant} />
-          <Project title="Project2" proImage={project2} projectVariant={projectVariant} />
+          <Project title="SocioPedia" projectDesc="SoicioPedia is a Social Media application With Features like posting content, likes the content , Drag n Drop , Dark/Light Theme You can add and remove friends in your list, Complete mobile responsive" proImage={project1} projectLink={"https://www.linkedin.com/posts/vivek-kalal-848397205_share-socialmedia-mode-activity-7048723183679475712-gDBP?utm_source=share&utm_medium=member_desktophttps://www.linkedin.com/posts/vivek-kalal-848397205_share-socialmedia-mode-activity-7048723183679475712-gDBP?utm_source=share&utm_medium=member_desktop"} projectVariant={projectVariant} />
+
+          <Project title="LoginForm" projectDesc="This project involves building a secure login form application using MERN stack technologies, including password reset, recovery, OTP generation, and email messaging functionalities ..." proImage={Login} projectLink={"https://github.com/Vivek-Anil-Kalal/login_app"} projectVariant={projectVariant} />
 
           {/* ROW 2 */}
-          <Project title="Project3" proImage={project3} projectVariant={projectVariant} />
-          <Project title="Project4" proImage={project4} projectVariant={projectVariant} />
-          <Project title="Project5" proImage={project5} projectVariant={projectVariant} />
+          <Project title="TechBlog" projectDesc="TechBlog is a Blog site where user can read and posts the blogs related to tech. Also profile updating feature.. Completely made in java(Backend - JSP Servlets) , BootStrap." proImage={Techblog} projectLink={"https://github.com/Vivek-Anil-Kalal/TechBlog"} projectVariant={projectVariant} />
+
+          <Project title="Bank Payment Form" proImage={robot} projectDesc="Bank Payment form is modern UI Web App . Created In React And TailwindCSS . This is the future of payment method and Web Application UI." projectLink={"https://github.com/Vivek-Anil-Kalal/Bank-Payment-Form"} projectVariant={projectVariant} />
+
+          <Project title="GPT-3" projectLink={"https://chatgpt-3-orpin.vercel.app/"} projectDesc={"Modern UI in ReactJS."} proImage={ai} projectVariant={projectVariant} />
 
           {/* ROW 2 */}
           <Project title="Project6" proImage={project6} projectVariant={projectVariant} />

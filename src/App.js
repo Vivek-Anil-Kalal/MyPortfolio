@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
-import Navbar from "./scenes/Navbar";
-import DotGroup from './scenes/DotGroup.jsx'
-import Landing from './scenes/Landing.jsx'
-import MySkills from './scenes/MySkills.jsx'
-import Contact from './scenes/Contact'
-import Projects from './scenes/Projects.jsx'
-import Testimonials from './scenes/Testimonials'
-import LineGradient from './components/LineGradient.jsx'
-import Footer from "./scenes/Footer";
+import { Navbar, DotGroup, Landing, MySkills, Contact, Projects, Testimonials, LineGradient, Footer } from './scenes/index.js'
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -45,7 +37,7 @@ function App() {
       <div className="w-5/6 mx-auto">
         <MySkills />
       </div>
-      
+
       <LineGradient />
 
       <div className="w-5/6 mx-auto">
