@@ -69,7 +69,7 @@ const Projects = () => {
           <Project title="GPT-3" projectLink={"https://chatgpt-3-orpin.vercel.app/"} projectDesc={"Modern UI in ReactJS."} proImage={ai} projectVariant={projectVariant} />
 
           {/* ROW 2 */}
-          <Project title="TechBlog" projectDesc="TechBlog is a Blog site where user can read and posts the blogs related to tech. Also profile updating feature.. Completely made in java(Backend - JSP Servlets) , BootStrap." proImage={Techblog} projectLink={"https://github.com/Vivek-Anil-Kalal/TechBlog"} projectVariant={projectVariant} />
+          <Project title="TechBlog" projectDesc="TechBlog is a Blog site where user can read and posts the blogs related to tech. Also profile updating feature.. Completely made in java(Backend - JSP Servlets) , BootStrap." proImage={Techblog} projectLink={"https://www.linkedin.com/posts/vivek-kalal-848397205_jsp-java-javadevelopers-activity-6974309056723202048-ATOH?utm_source=share&utm_medium=member_desktop"} projectVariant={projectVariant} />
 
           <Project title="Bank Payment Form" proImage={robot} projectDesc="Bank Payment form is modern UI Web App . Created In React And TailwindCSS . This is the future of payment method and Web Application UI." projectLink={"https://github.com/Vivek-Anil-Kalal/Bank-Payment-Form"} projectVariant={projectVariant} />
 
