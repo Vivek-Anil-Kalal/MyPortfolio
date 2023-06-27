@@ -25,6 +25,9 @@ import robot from '../assets/robot.png'
 import Techblog from '../assets/Techblog.jpg'
 import ai from '../assets/ai.png'
 import GPT3 from '../assets/GPT3.png'
+import Mypic from '../assets/Mypic.jpg'
+import Mypic2 from '../assets/Mypic2.jpg'
+import ProfilePic from '../assets/ProfilePic.jpg'
 
 export {
     menuIcon,
@@ -52,6 +55,9 @@ export {
     Techblog,
     robot,
     Login,
+    ProfilePic,
+    Mypic,
+    Mypic2,
     GPT3,
     ai,
 }

@@ -16,7 +16,7 @@ function Project({ title, projectVariant, proImage, projectLink , projectDesc}) 
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-3">{projectDesc}</p>
-                <a href={projectLink} className="mt-5 px-10 py-2 border-2 font-bold hover:bg-blue hover:text-white transition duration-1000 rounded-xl border-sky-500" rel="noreferrer" target="_blank">Link</a>
+                <a href={projectLink} className="mt-1 px-10 py-2 border-2 font-bold hover:bg-blue hover:text-white transition duration-1000 rounded-xl border-sky-500" rel="noreferrer" target="_blank">Link</a>
             </div>
 
             <img src={`${proImage}`} alt={projectTitle} />

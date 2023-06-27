@@ -48,7 +48,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl sm:p-0 p-5 mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
+            Working with Vivek has been an absolute pleasure. He is incredibly hardworking and consistently deliver exceptional results. Their punctuality is remarkable, always meeting deadlines without compromising quality. I highly recommend Vivek for their dedication, consistency, and remarkable ability to continuously expand their knowledge.
           </p>
         </motion.div>
 
@@ -59,7 +59,7 @@ const Testimonials = () => {
           whileInView="visible"
           // this shows thas 0.5(50%) jab ye div viewport par ayga tab once ye animation chalega
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay : 0.2 , duration: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, scale: 0.8 },
             visible: { opacity: 1, scale: 1 }
@@ -67,7 +67,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl sm:p-0 p-5 mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
+            Working with Vivek has been an absolute pleasure. He is incredibly hardworking and consistently deliver exceptional results. Their punctuality is remarkable, always meeting deadlines without compromising quality. I highly recommend Vivek for their dedication, consistency, and remarkable ability to continuously expand their knowledge.
           </p>
         </motion.div>
 
@@ -76,7 +76,7 @@ const Testimonials = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ delay : 0.4 , duration: 0.5 }}
+          transition={{ delay: 0.4, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, scale: 0.8 },
             visible: { opacity: 1, scale: 1 }
@@ -84,7 +84,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl sm:p-0 p-5 mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat et illo consequatur sed rerum eligendi, facilis illum ut iure sint voluptate mollitia officia, aliquid voluptatum culpa, eius aut molestias.
+            Working with Vivek has been an absolute pleasure. He is incredibly hardworking and consistently deliver exceptional results. Their punctuality is remarkable, always meeting deadlines without compromising quality. I highly recommend Vivek for their dedication, consistency, and remarkable ability to continuously expand their knowledge.
           </p>
         </motion.div>
 
